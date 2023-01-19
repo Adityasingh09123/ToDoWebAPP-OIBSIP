@@ -1,0 +1,93 @@
+body{
+    background: linear-gradient(135deg,#ff00d4,#00ddff); 
+}
+
+
+.title h1{
+    border: solid 1px white;
+    background-color: white;
+    border-radius: 5px 5px 0px 0px;
+    text-align: center;
+    margin-top: 70px;
+    width: 74.2%;
+    font-family: serif;
+    margin-left: 198px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+.container{
+    color: black;
+    display: flex;
+    background-color: #042743;
+    justify-content: space-between;
+    padding: 60px;
+    align-items: flex-start;
+    margin-top: -8px;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+
+.container h2{
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+#card{
+    width: 60%;
+    border-radius: 15px;
+    background-color: lightgrey;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+
+.store-task{
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: aliceblue;
+    width: 63%;
+    margin-left: 8px;
+    height: 316px;
+    overflow-y:scroll;
+}
+
+
+.storeCompletedTask{
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: aliceblue;
+    width: 63%;
+    height: 316px;
+    overflow-y:scroll;
+    margin-left: 8px;
+}
+
+
+#pendingTask{
+    margin-left: -0.1px;
+    justify-content: center;
+}
+
+
+#completedTask{
+    justify-content: center;
+}
+
